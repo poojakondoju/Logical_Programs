@@ -1,5 +1,7 @@
 package logicalprograms;
 
+import java.util.Scanner;
+
 public class Stopwatch 
 {
 	public long startTimer=0;
@@ -31,7 +33,7 @@ public class Stopwatch
 		Stopwatch sw=new Stopwatch();
 		
 		System.out.println("Press '1' to Start Time: ");
-	
+		
 		sw.start();
 
 		System.out.println();
